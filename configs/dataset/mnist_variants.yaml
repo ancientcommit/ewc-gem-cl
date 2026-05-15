@@ -1,0 +1,4 @@
+_target_: src.data.mnist_variants_sequential.MNISTVariantsSequentialDataModule
+data_dir: ./data
+batch_size: 64
+num_workers: 6

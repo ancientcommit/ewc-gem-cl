@@ -1,0 +1,11 @@
+_target_: src.data.cifar10_sequential.CIFAR10SequentialDataModule
+data_dir: ./data
+batch_size: 128
+num_workers: 6
+normalize_mean: [0.4914, 0.4822, 0.4465]
+normalize_std: [0.2470, 0.2435, 0.2616]
+# task definitions (3 tasks with 3/4 classes each)
+tasks:
+  A: [0, 1, 2, 3]
+  B: [4, 5, 6]
+  C: [7, 8, 9]

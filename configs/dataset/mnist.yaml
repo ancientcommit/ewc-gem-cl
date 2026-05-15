@@ -1,0 +1,11 @@
+_target_: src.data.mnist_sequential.MNISTSequentialDataModule
+data_dir: ./data
+batch_size: 64
+num_workers: 6
+normalize_mean: 0.1307
+normalize_std: 0.3081
+# task definitions
+tasks:
+  A: [0, 1, 2, 3]
+  B: [4, 5, 6]
+  C: [7, 8, 9]

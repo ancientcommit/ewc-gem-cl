@@ -1,0 +1,10 @@
+defaults:
+  - /dataset: mnist
+  - /model: resnet_mnist
+  - /strategy: naive
+  - /optimizer: adam
+  - /trainer: sequential
+
+experiment_name: mnist_naive_resnet
+seed: 42
+task_order: ["A", "B", "C"]

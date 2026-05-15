@@ -1,0 +1,10 @@
+defaults:
+  - /dataset: mnist_permutations
+  - /model: mlp_mnist
+  - /strategy: gem
+  - /optimizer: adam
+  - /trainer: sequential
+
+experiment_name: permmnist_gem_mlp
+seed: 42
+task_order: ["A", "B", "C", "D", "E"]

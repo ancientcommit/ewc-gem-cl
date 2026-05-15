@@ -1,0 +1,10 @@
+defaults:
+  - /dataset: mnist_variants
+  - /model: mlp_mnist
+  - /strategy: ewc
+  - /optimizer: adam
+  - /trainer: sequential
+
+experiment_name: mnist_variants_ewc
+seed: 42
+task_order: ["A", "B"]

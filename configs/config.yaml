@@ -1,0 +1,9 @@
+defaults:
+  - _self_
+  - experiment: mnist_naive
+
+hydra:
+  run:
+    dir: outputs/${hydra.job.name}/${now:%Y-%m-%d_%H-%M-%S}
+  sweep:
+    dir: outputs/sweeps/${hydra.job.name}/${now:%Y-%m-%d_%H-%M-%S}

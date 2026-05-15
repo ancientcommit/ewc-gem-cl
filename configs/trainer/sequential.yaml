@@ -1,0 +1,4 @@
+_target_: src.training.sequential.SequentialTrainer
+max_epochs_per_task: 3
+device: auto
+log_interval: 100

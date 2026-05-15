@@ -1,0 +1,10 @@
+defaults:
+  - /dataset: cifar10
+  - /model: resnet_cifar10
+  - /strategy: naive
+  - /optimizer: adam
+  - /trainer: sequential
+
+experiment_name: cifar10_naive_resnet
+seed: 42
+task_order: ["A", "B", "C"]

@@ -1,0 +1,10 @@
+defaults:
+  - /dataset: cifar100
+  - /model: cnn_cifar100
+  - /strategy: naive
+  - /optimizer: adam
+  - /trainer: sequential
+
+experiment_name: cifar100_naive_cnn
+seed: 42
+task_order: ["A", "B", "C", "D", "E"]

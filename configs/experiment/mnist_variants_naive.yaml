@@ -1,0 +1,10 @@
+defaults:
+  - /dataset: mnist_variants
+  - /model: mlp_mnist
+  - /strategy: naive
+  - /optimizer: adam
+  - /trainer: sequential
+
+experiment_name: mnist_variants_naive
+seed: 42
+task_order: ["A", "B"]

@@ -1,0 +1,5 @@
+_target_: src.models.mlp.MLP
+input_size: 3072
+hidden_sizes: [512, 256]
+num_classes: 100
+dropout: 0.0

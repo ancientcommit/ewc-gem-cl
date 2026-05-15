@@ -1,0 +1,39 @@
+name: catforget
+channels:
+  - pytorch
+  # - nvidia (if GPU/Cuda is used)
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+
+  # Core Scientific
+  - numpy
+  - pandas
+  - matplotlib
+  - scipy
+  - scikit-learn
+  - seaborn
+
+  # PyTorch + CUDA
+  - pytorch
+  - torchvision
+  - torchaudio
+  # - pytorch-cuda=12.1 (if GPU/Cuda is used)
+
+  # Utilities
+  - quadprog
+  - tqdm
+  - jupyterlab
+  - ipykernel
+  - pillow
+
+  # pip section for packages that are typically too deprecated using conda
+  - pip
+  - pip:
+      - hydra-core
+      - hydra-colorlog
+      - omegaconf
+      - tensorboard
+      - wandb

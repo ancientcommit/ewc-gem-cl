@@ -1,0 +1,8 @@
+_target_: src.data.mnist_permutations_sequential.MNISTPermutationsSequentialDataModule
+data_dir: ./data
+batch_size: 64
+num_workers: 6
+normalize_mean: 0.1307
+normalize_std: 0.3081
+# task names
+tasks: ["A", "B", "C", "D", "E"]

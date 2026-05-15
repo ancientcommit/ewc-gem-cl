@@ -1,0 +1,10 @@
+defaults:
+  - /dataset: cifar10
+  - /model: mlp_cifar10
+  - /strategy: gem
+  - /optimizer: adam
+  - /trainer: sequential
+
+experiment_name: cifar10_gem_mlp
+seed: 42
+task_order: ["A", "B", "C"]

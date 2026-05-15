@@ -1,0 +1,10 @@
+defaults:
+  - /dataset: cifar10
+  - /model: mlp_cifar10
+  - /strategy: naive
+  - /optimizer: adam
+  - /trainer: sequential
+
+experiment_name: cifar10_naive_mlp
+seed: 42
+task_order: ["A", "B", "C"]

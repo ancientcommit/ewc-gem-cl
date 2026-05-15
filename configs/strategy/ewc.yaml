@@ -1,0 +1,2 @@
+_target_: src.strategies.ewc.EWCStrategy
+reg_param: 10000

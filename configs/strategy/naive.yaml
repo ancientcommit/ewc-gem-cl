@@ -1,0 +1,2 @@
+_target_: src.strategies.naive.NaiveStrategy
+# has no special parameters

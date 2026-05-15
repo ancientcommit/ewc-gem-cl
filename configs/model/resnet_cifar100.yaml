@@ -1,0 +1,3 @@
+_target_: src.models.resnet.ResNet18
+num_classes: 100
+grayscale: False
